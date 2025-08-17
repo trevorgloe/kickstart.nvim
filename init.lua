@@ -807,6 +807,7 @@ require('lazy').setup({
         end)(),
         config = function()
           require 'snippets.latex'
+          require 'snippets.pic_changes'
         end,
         dependencies = {
           -- `friendly-snippets` contains a variety of premade snippets.
